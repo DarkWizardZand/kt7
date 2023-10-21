@@ -25,8 +25,14 @@ class HomeController extends GetxController {
 
   @override
   void onClose() {
+    getCarsCtrl();
     super.onClose();
   }
+
+void update_data(){
+  status.value = NetworkDataStatus.loading;
+  getCarsCtrl();
+}
 
   void getCarsCtrl() async {
     List<Car>? newCars = await service.getCars();
