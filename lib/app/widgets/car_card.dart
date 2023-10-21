@@ -12,15 +12,15 @@ class CarCard extends StatelessWidget {
       height: 70,
       child:Row(
         children: [
-          Text(car.car,style: TextStyle(fontSize: 14.0,color: Colors.white)),
+          Text(car.car,style: TextStyle(fontSize: 14.0,color: const Color.fromARGB(255, 2, 0, 0))),
           SizedBox(width: 10),
-          Text(car.model,style: TextStyle(fontSize: 14.0,color: Colors.white)),
+          Text(car.model,style: TextStyle(fontSize: 14.0,color: const Color.fromARGB(255, 2, 0, 0))),
           SizedBox(width: 10),
-          Text(car.color,style: TextStyle(fontSize: 14.0,color: Colors.white)),
+          Text(car.color,style: TextStyle(fontSize: 14.0,color: const Color.fromARGB(255, 2, 0, 0))),
           SizedBox(width: 10),
-          Text('${car.price}',style: TextStyle(fontSize: 14.0,color: Colors.white)),
+          Text('${car.price}',style: TextStyle(fontSize: 14.0,color: const Color.fromARGB(255, 2, 0, 0))),
           SizedBox(width: 10),
-          Text('${car.availablity}',style: TextStyle(fontSize: 14.0,color: Colors.white)),
+          Text('${car.availablity}',style: TextStyle(fontSize: 14.0,color: const Color.fromARGB(255, 2, 0, 0))),
           SizedBox(width: 10),
         ],
       )
